@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+        <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+        <title>Drawing</title>
+    </head>
+    <body>  
+        <div class="headerlayout">
+            <h1 id="header">Drawing</h1>
+        </div>
+        <div class="container">
+            <div id="inputfield">
+                <label for="choosecolor" id="labelcolor">Please Choose your Colour Here : </label><br>
+                <input type="color" list id="choosecolor">
+                <br/><br/>
+                <label for="slider" id="labelslide">Please select the cursor size</label>
+                <div id="inputslider">
+                    <div id="slider"></div>
+                    <div id="slidercircle"></div>
+                </div>
+                <div id="inputoptions"> 
+                <button class="btn btn-default" id="line">Line</button>
+                <button class="btn btn-default" id="square">Square</button>
+                <button class="btn btn-default" id="triangle">Triangle</button>
+                <button class="btn btn-default" id="equi">Equilateral</button> 
+                <button class="btn btn-default" id="right">Right Angle</button>
+                <button class="btn btn-default" id="circle">Circle</button>
+            </div>
+            </div>
+            <div id="screen">
+                <canvas id="paint" width="572" height="500"></canvas>
+            </div>
+            <div id="screenoptions"> 
+                <button class="btn btn-danger" id="erase">Erase</button>
+                <button class="btn btn-info" id="draw">Draw</button>
+                <button class="btn btn-success" id="save">Save</button>
+                <button class="btn btn-primary" id="reset">Reset</button>
+            </div>
+        </div>
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        
+        <script src="js/bootstrap.min.js"></script>
+        <script src="jQueryCode.js"></script>
+        
+    </body>
+</html>
