@@ -1,0 +1,71 @@
+body
+{
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+}
+.port
+{
+    width: 80%!important;
+    overflow:visible;
+    height: auto!important;
+}
+.port p
+{
+    
+    font-size: 2em!important;
+    font-weight: bolder!important;
+    
+}
+.jumbotron
+{
+    text-align: center;
+    color:azure!important;
+    font-family:serif;
+    font-variant-caps: all-petite-caps;
+    background-color: transparent!important;
+}
+.jumbotron1
+{
+    text-align: center;
+    color:azure!important;
+    font-family:serif;
+    font-variant-caps: all-petite-caps;
+    background-color: transparent!important;
+    margin-top: -120px;
+}
+.box
+{
+    text-align: center;
+}
+.btn
+{
+    width: 250px;
+    margin-bottom: 20px!important;
+    background-color: rgba(191,191,191,1)!important;
+}
+.btn:hover
+{
+    background-color: rgba(191,191,191,0.5)!important;
+    color: white!important;
+}
+footer
+{
+    color: white;
+    background-color: rgba(0,0,0,1)!important;
+    width: 100%;
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+footer p
+{
+    float: right!important;
+    color: white;
+    padding-right: 50px;
+    font-size: 17px;
+}
+.container
+{
+    margin-bottom: 50px;
+}
